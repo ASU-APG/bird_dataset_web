@@ -109,3 +109,18 @@ header h4 {
     font-size: 30px;
     line-height: 60px;
 }
+.instructorphoto img {
+  width: 120px;
+  border-radius: 130px;
+  margin-bottom: 13px;
+  margin-top: 23px;
+}
+.instructor {
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+  margin-right: 20px;
+}
+#coursedesc {
+  text-align: justify;
+}
