@@ -54,7 +54,7 @@
                     <li><a href="https://drive.google.com/file/d/1tuwPCe5W3_hI2bWQoSjD15ZU2X0fROSo/view?usp=sharing">Download</a></li>
                     </li>
  
-                    <li><a href="https://yezhouyang.engineering.asu.edu/">APG Groups</a></li>
+                    <li><a href="https://yezhouyang.engineering.asu.edu/">ASU APG</a></li>
 
                 </ul>
             </section>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="row">
                     <div class="large-11 columns" style="-webkit-text-size-adjust:none; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">
-                        <p style="font-size:15px; font-weight: 200; display: inline;" align="justify">Given the two scenes (the source and the target), Image based Event-Sequencing (IES) is a task to predict the sequence of actions required to rearrange objects in a source scene  to the target scene.</p>
+                        <p style="font-size:15px; font-weight: 200; display: inline;" align="justify">Given two images (source, target) each containing blocks arranged in some configuration, Image-based Event-Sequencing (IES) is a task to predict the sequence of actions required to rearrange objects in the source configuration to the target configuration.</p>
 <!--                         <div class="large-12 columns">
                             <ul style="font-size:13px; font-weight: 200; display: inline;" align="justify">
                                 <li>Number of images?</li>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="row">
                     <div class="large-11 columns" style="-webkit-text-size-adjust:none; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">
-                        <p style="font-size:15px; font-weight: 200; display: inline;" align="justify">Blocksworld Image Reasoning Dataset (BIRD) is a testbed for IES task to combine learning and reasoning in AI problems. Prediction of the event sequences require understanding of spatial configuration of objects through vision and apply commonsense reasoning over it.  </p>
+                        <p style="font-size:15px; font-weight: 200; display: inline;" align="justify">Blocksworld Image Reasoning Dataset (BIRD) is a testbed for IES task to combine learning and reasoning for the IES task. Prediction of event sequences requires understanding of spatial configuration of objects through vision followed by reasoning about this configuration with respect to a visual reasoning task such as IES.  </p>
 
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                 </div>
                         <div class="large-12 columns">
                             <ul style="font-size:13px; font-weight: 200; display: inline;" align="justify">
-                                <li>1 M image pairs (available in raw images format and structured representation of images) in the Blocksworld setting </li>
+                                <li>1 Million image pairs (available in raw image format and structured representation of images) in the Blocksworld setting </li>
                             </ul>
 
                             <ul style="font-size:13px; font-weight: 200; display: inline;" align="justify">
@@ -106,7 +106,7 @@
                             </ul>           
 
                             <ul style="font-size:13px; font-weight: 200; display: inline;" align="justify">
-                                <li>Ground truth event sequence(s) for each image pairs (“no sequence possible” for the given image pair is a valid case)</li>
+                                <li>Ground truth event-sequence(s) for each image pair (“no sequence possible” for the given image pair is a valid case)</li>
                             </ul>           
 
                             <ul style="font-size:13px; font-weight: 200; display: inline;" align="justify">
@@ -115,7 +115,7 @@
                         </div>
 					
 					<div class="large-10 columns" style="margin-left:-10px">
-                    <p style="font-size:15px; font-weight: 200; display: inline;">Details on downloading the latest dataset may be found on the <a href="https://drive.google.com/file/d/1tuwPCe5W3_hI2bWQoSjD15ZU2X0fROSo/view?usp=sharing">download webpage</a>.</p>
+                    <p style="font-size:15px; font-weight: 200; display: inline;">Instructions for downloading the latest version of BIRD can be found <a href="https://drive.google.com/file/d/1tuwPCe5W3_hI2bWQoSjD15ZU2X0fROSo/view?usp=sharing">here</a>.</p>
                 </div>
                 <div class="large-12 columns" style="-webkit-text-size-adjust:none; -ms-text-size-adjust:none; -moz-text-size-adjust:none; text-size-adjust:none;">
                     <div class="large-5 columns">
@@ -132,33 +132,31 @@
             </div>
             <hr>
             <div class="row">
-                <div class="large-12 columns">
                     <h1 style="font-size:30px; color:grey; font-weight: 200;" align="left">Papers</h1>
                     <p style="font-size:20px; font-weight: 200;" align="justify"> Blocksworld Revisited: Learning and Reasoning to Generate Event-Sequences from Image Pairs </p>
                     <br>
-                    <div class="large-2 columns">
-                        <a href="" onclick="ga(&#39;send&#39;, &#39;event&#39;, { eventCategory: &#39;VQA2.0&#39;, eventAction: &#39;VQA2.0_Paper&#39;, eventLabel: &#39;VQA2.0_Paper&#39;});"><img src="./bird_files/bird.png" height="400" width="200" style="border : 2px solid #b3b3b3; border-radius : 0px; display:block; margin:auto;" class="pull-right"></a>
+                    <div align="left">
+                        <a href="https://arxiv.org/pdf/1905.12042.pdf"><img src="./bird_files/paper_snap.jpg" style="width:1000px;height:440px" />
                         <br>
                         <br>
-                        <p style="font-size:15px; font-weight: 200;" align="justify">Download the <a href="https://arxiv.org/pdf/1905.12042.pdf">paper</a></p>
+                        <p style="font-size:15px; font-weight: 200;" align="left">Download the <a href="https://arxiv.org/pdf/1905.12042.pdf">paper</a></p>
 
-                        <p id="bibtex2" style="font-size:15px; font-weight: 200;" align="justify"><a href="https://arxiv.org/pdf/1905.12042.pdf" onclick="document.getElementById(&#39;bibtex21&#39;).style.display=&#39;block&#39;; document.getElementById(&#39;bibtex2&#39;).style.display=&#39;none&#39;; return false;">BibTeX</a></p>
+                        <p id="bibtex2" style="font-size:15px; font-weight: 200;" align="left"><a href="https://arxiv.org/pdf/1905.12042.pdf" onclick="document.getElementById(&#39;bibtex21&#39;).style.display=&#39;block&#39;; document.getElementById(&#39;bibtex2&#39;).style.display=&#39;none&#39;; return false;">BibTeX</a></p>
                         <div style="display: none;" id="bibtex21">
-                            <p style="font-size:12px; font-weight: 200; width:200%; text-align: left;">
+                            <p style="font-size:12px; font-weight: 200; width:200%; text-align: justify;">
                                 @misc{gokhale2019blocksworld,
-    <br>title={Blocksworld Revisited: Learning and Reasoning to Generate Event-Sequences from Image Pairs},
-    <br>author={Tejas Gokhale and Shailaja Sampat and Zhiyuan Fang and Yezhou Yang and Chitta Baral},
-    <br>year={2019},
-    <br>eprint={1905.12042},
-    <br>archivePrefix={arXiv},
-    <br>primaryClass={cs.CV}
-}
+                                <br>title={Blocksworld Revisited: Learning and Reasoning to Generate Event-Sequences from Image Pairs},
+                                <br>author={Tejas Gokhale and Shailaja Sampat and Zhiyuan Fang and Yezhou Yang and Chitta Baral},
+                                <br>year={2019},
+                                <br>eprint={1905.12042},
+                                <br>archivePrefix={arXiv},
+                                <br>primaryClass={cs.CV}
+                            }
                             </p>
-                        </div>
                     </div>
-                    <div class="large-10 columns" style="left: -2em; top: -1em;">
+                    <!-- <div class="large-10 columns" style="left: -2em; top: -1em;">
                         <img src="./bird_files/demo.jpg" height="240" width="240" style="display:block; margin:auto;" frameborder="0">
-                    </div>
+                    </div> -->
                 </div>
                 </div>
                 </div>
